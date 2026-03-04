@@ -158,7 +158,7 @@ function App() {
     <>
       {pageContent}
       <SoundToggle />
-      <div className="pointer-events-none fixed left-2 top-2 z-50 rounded bg-black/70 px-2 py-1 text-[10px] text-white">
+      <div className="pointer-events-none fixed bottom-2 left-2 z-50 rounded bg-black/70 px-2 py-1 text-[10px] text-white">
         构建时间：{buildLabel}
       </div>
     </>
